@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+
+.main {
+    /* position: relative; */
+    z-index: 0;
+}
+
+.blackbox {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.divone {
+    background-color: red;
+    position: absolute;
+    top: 2vh;
+    height: 96vh;
+    width: 20vw;
+    left: 2vh;
+}
+
+.divtwo {
+    background-color: red;
+    position: absolute;
+    height: 96vh;
+    width: 20vw;
+    top: 2vh;
+    right: 2vh;
+}
+
+.overlap {
+    /* position: absolute; */
+    z-index: 100%;
+    background-color: rgba(161, 15, 15, 1);
+    height: 8vh;
+    width: 88vw;
+    top: 46vh;
+    left: 10vh;
+}
